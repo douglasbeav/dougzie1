@@ -6,6 +6,15 @@ public class Person {
 
     private String name;
     private int age;
+    private String street;
+
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
 
     public String getName() {
         return name;
